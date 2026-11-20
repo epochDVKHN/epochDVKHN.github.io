@@ -1,0 +1,24 @@
+# --- Pixi Environments ---
+.pixi/*
+!.pixi/config.toml
+
+# --- IDEs and Editor configurations ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Operating System Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- Environment ---
+.env
+.env.*
+*.log
