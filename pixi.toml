@@ -1,0 +1,11 @@
+[workspace]
+authors = ["epochDVKHN <79654411+epochDVKHN@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "epochDVKHN.github.io"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+nodejs = ">=26.13.1,<26.14"

@@ -22,3 +22,13 @@ desktop.ini
 .env
 .env.*
 *.log
+
+# --- Node Packages ---
+node_modules/
+
+# --- Astro Modules ---
+dist/
+.astro/
+
+# --- Personal Notes ---
+.blog/

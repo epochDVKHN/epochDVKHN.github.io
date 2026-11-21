@@ -1,0 +1,24 @@
+version: 7
+platforms:
+- name: win-64
+  virtual-packages:
+  - __win=10.0
+  - __archspec=0=x86_64
+environments:
+  default:
+    channels:
+    - url: https://conda.anaconda.org/conda-forge/
+    packages:
+      win-64:
+      - conda: https://conda.anaconda.org/conda-forge/win-64/nodejs-26.13.1-h80d1838_1.conda
+packages:
+- conda: https://conda.anaconda.org/conda-forge/win-64/nodejs-26.13.1-h80d1838_1.conda
+  sha256: a9474fe8f3d732c8425ccc09993364ff69cb74fcd48d06e3e2226503a645324c
+  md5: dc8e2ac510c9019716872c072d3c76b0
+  license: MIT
+  license_family: MIT
+  run_exports:
+    weak:
+    - nodejs >=26.13.1,<27.0a0
+  size: 34485273
+  timestamp: 1794558547173
